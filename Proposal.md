@@ -8,11 +8,11 @@ A multi-threaded graphic subtitle generator
 
 ### Group members and contact info
 
-| Name           | Jiaming Xu | Teng Yue                     | Wenrui Xu                  |
-| -------------- | ---------- | ---------------------------- | -------------------------- |
-| Student Number |            | 1007826792                   | 1008313228                 |
-| Email Address  |            | teng.yue@mail.utoronto.ca    | wenrui.xu@mail.utoronto.ca |
-| Main Page      |            | https://github.com/TigerYue7 | https://github.com/Cyame   |
+| Name           | Jiaming Xu                     | Teng Yue                     | Wenrui Xu                  |
+| -------------- | ------------------------------ | ---------------------------- | -------------------------- |
+| Student Number | 1007698831                     | 1007826792                   | 1008313228                 |
+| Email Address  | jm.xu@mail.utoronto.ca         | teng.yue@mail.utoronto.ca    | wenrui.xu@mail.utoronto.ca |
+| Main Page      | https://github.com/TangJinXuan | https://github.com/TigerYue7 | https://github.com/Cyame   |
 
 ### Area
 
