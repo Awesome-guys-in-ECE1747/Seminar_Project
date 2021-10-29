@@ -17,7 +17,7 @@ LDFLAGS = -lm $(LIBS)
 CP		= cp
 RM      = rm -f
 SH		= sh
-STRIP	= strip -s
+STRIP	= strip -S
 VERGEN	= $(SH) version.sh
 
 PRJ     = svg2ass
