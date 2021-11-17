@@ -1,12 +1,5 @@
 /*
  * Naive 2D graphics vector and matrix implementation.
- *
- * Project: svg2ass
- *    File: vect.h
- * Created: 2014-10-27
- *  Author: Urban Wallasch
- *
- * See LICENSE file for more details.
  */
 
 #ifndef H_VECT_INCLUDED

@@ -1,14 +1,8 @@
 #####################################
-##
-##	Project: svg2ass
-## 	   File: Makefile
-##  Created: 2014-10-23
-##   Author: Urban Wallasch
-##
 
 CC      := gcc
 INCS    =
-CFLAGS  = $(INCS) -Wall -Wextra -Wpedantic -std=c99
+CFLAGS  = $(INCS) -Wall -Wextra -Wpedantic -std=c99 -pthread
 # support POSIX strcasecmp, strdup and getopt:
 CFLAGSX = -D_POSIX_C_SOURCE=200809L
 LD      = gcc
@@ -60,5 +54,4 @@ clean:
 	-${RM} $(OBJ) $(BIN) $(DEP) 2> /dev/null
 
 
-##  EOF  
-#####################################
+## EOF ##

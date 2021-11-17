@@ -1,15 +1,6 @@
-/*
- *	Project: svg2ass
- * 	   File: colors.h
- *  Created: 2014-10-24
- *   Author: Urban Wallasch
- *
- * See LICENSE file for more details.
- */
+/*Reviewed: see colors.c*/
 
-/*
- * Convert named or #rrggbb coded color to unsigned BGR (sic!)
- */
-unsigned convColorBGR( const char *s );
+/*Convert Std Color to unsigned BGR color*/
+unsigned convColorBGR(const char *s);
 
 /* EOF */
