@@ -1,6 +1,6 @@
 # Seminar Project
 
-A project of *ECE1757*
+A project of *ECE1747*
 
 **This Repository is basically a multithreaded version implementation of [svg2ass](https://github.com/irrwahn/svg2ass) with some researches and seminar papers**
 
