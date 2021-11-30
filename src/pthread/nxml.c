@@ -103,7 +103,7 @@ static inline char *parseAttrib(char *p, nxmlNode_t *node)
 			void *p;
 			p = realloc(node->att, sizeof *node->att * (node->att_sz + 50));
 			if (!p)
-				break; // TODO: error handling!
+				break;
 			node->att = p;
 			node->att_sz += 50;
 		}
@@ -146,7 +146,6 @@ static inline char *parseMarkup(char *p, nxmlNode_t *node)
 		m = parseAttrib(m, node);
 		while (*m && '>' != *m)
 		{ // skip any broken attribute garbage!
-			// TODO: match quotes?
 			++m;
 		}
 		if ('/' == *(m - 1))

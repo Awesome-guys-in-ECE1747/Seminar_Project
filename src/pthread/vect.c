@@ -1,8 +1,9 @@
-/*Naive 2-D graphics vector and matrix implementation*/
+
 #include <math.h>
 
 #include "vect.h"
 
+// Path generater
 vec_t vec_add(vec_t u, vec_t v)
 {
 	return VEC(u.x + v.x, u.y + v.y);

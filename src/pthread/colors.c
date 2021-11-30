@@ -165,8 +165,10 @@ static struct
 unsigned convColorBGR(const char *s)
 {
 	unsigned bgr = 0;
+	// First Byte of Color Tag
 	if ('#' == *s)
 	{
+		// Converting
 		unsigned rgb = strtoul(s + 1, NULL, 16);
 		bgr = (rgb & 0xFF) << 16 | (rgb & 0xFF00) | (rgb & 0xFF0000) >> 16;
 	}
