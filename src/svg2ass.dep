@@ -1,4 +1,0 @@
-colors.o: colors.c
-main.o: main.c nxml.h colors.h vect.h version.h
-nxml.o: nxml.c nxml.h
-vect.o: vect.c vect.h
