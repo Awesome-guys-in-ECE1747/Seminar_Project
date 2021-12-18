@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "version.h": "c",
+        "math.h": "c"
+    }
+}

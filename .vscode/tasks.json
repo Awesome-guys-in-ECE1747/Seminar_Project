@@ -1,0 +1,124 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        // {
+        //     "type": "process",
+        //     "label": "build",
+        //     "command":"",
+        //     "dependsOn":["build vect.c","build nxml.c","build main.c","build colors.c","build project"],
+        // },
+        {
+            "type":   "process",
+            "label": "build",
+            "command": "make",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Debug: /usr/bin/gcc"
+        }
+        // {
+        //     "type": "process",
+        //     "label": "link dependency",
+        //     "command": "gcc",
+        //     "args": ["-MM","vect.c","nxml.c","main.c","colors.c","svg2ass.dep"],
+        //     "options": {
+        //         "cwd": "${fileDirname}"
+        //     },
+        //     "problemMatcher": [
+        //         "$gcc"
+        //     ],
+        //     "group": "build",
+        //     "detail": "Debug: /usr/bin/gcc"
+        // },
+        // {
+        //     "type": "process",
+        //     "label": "build vect.c",
+        //     "command": "gcc",
+        //     "args": ["-c","vect.c","-o","vect.o","-Wall","-Wextra","-Wpedantic","-std=c99","-pthread","-lpthread","-O2","-DNDEBUG","-D_POSIX_C_SOURCE=200809L"],
+        //     "options": {
+        //         "cwd": "${fileDirname}"
+        //     },
+        //     "problemMatcher": [
+        //         "$gcc"
+        //     ],
+        //     "group": "build",
+        //     "detail": "Debug: /usr/bin/gcc"
+        // },
+        // {
+        //     "type": "process",
+        //     "label": "build nxml.c",
+        //     "command": "gcc",
+        //     "args": ["-c","nxml.c","-o","nxml.o","-Wall","-Wextra","-Wpedantic","-std=c99","-pthread","-lpthread","-O2","-DNDEBUG","-D_POSIX_C_SOURCE=200809L"],
+        //     "options": {
+        //         "cwd": "${fileDirname}"
+        //     },
+        //     "problemMatcher": [
+        //         "$gcc"
+        //     ],
+        //     "group": "build",
+        //     "detail": "Debug: /usr/bin/gcc"
+        // },
+        // {
+        //     "type": "process",
+        //     "label": "build main.c",
+        //     "command": "gcc",
+        //     "args": ["-c","main.c","-o","main.o","-Wall","-Wextra","-Wpedantic","-std=c99","-pthread","-lpthread","-O2","-DNDEBUG","-D_POSIX_C_SOURCE=200809L"],
+        //     "options": {
+        //         "cwd": "${fileDirname}"
+        //     },
+        //     "problemMatcher": [
+        //         "$gcc"
+        //     ],
+        //     "group": "build",
+        //     "detail": "Debug: /usr/bin/gcc"
+        // },
+        // {
+        //     "type": "process",
+        //     "label": "build colors.c",
+        //     "command": "gcc",
+        //     "args": ["-c","colors.c","-o","colors.o","-Wall","-Wextra","-Wpedantic","-std=c99","-pthread","-lpthread","-O2","-DNDEBUG","-D_POSIX_C_SOURCE=200809L"],
+        //     "options": {
+        //         "cwd": "${fileDirname}"
+        //     },
+        //     "problemMatcher": [
+        //         "$gcc"
+        //     ],
+        //     "group": "build",
+        //     "detail": "Debug: /usr/bin/gcc"
+        // },
+        // {
+        //     "type": "process",
+        //     "label": "build project",
+        //     "command": "gcc",
+        //     "args": ["-g","vect.o","nxml.o","main.o","colors.o","-o","svg2ass","-lm"],
+        //     "options": {
+        //         "cwd": "${fileDirname}"
+        //     },
+        //     "problemMatcher": [
+        //         "$gcc"
+        //     ],
+        //     "group": "build",
+        //     "detail": "Debug: /usr/bin/gcc"
+        // },
+        // {
+        //     "type": "process",
+        //     "label": "stripping",
+        //     "command": "strip",
+        //     "args": ["-s","svg2ass"],
+        //     "options": {
+        //         "cwd": "${fileDirname}"
+        //     },
+        //     "problemMatcher": [
+        //         "$gcc"
+        //     ],
+        //     "group": "build",
+        //     "detail": "Debug: /usr/bin/gcc"
+        // }
+    ]
+}
